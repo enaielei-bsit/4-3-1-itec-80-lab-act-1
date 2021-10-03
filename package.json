@@ -1,4 +1,8 @@
 {
+  "name": "sec43-1stsem-itec80-labact1",
+  "version": "1.0.0",
+  "author": "Nommel Isanar Lavapie Amolat <nommel.isanar.lavapie.amolat@gmail.com>",
+  "license": "UNLICENSED",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
@@ -7,12 +11,17 @@
     "lint": "prettier --check \"src/**/*.{ts,js}\""
   },
   "dependencies": {
-    "jquery": "^3.6.0"
+    "dateformat": "^5.0.1",
+    "fomantic-ui": "^2.8.8",
+    "jquery": "^3.6.0",
+    "js-quantities": "^1.7.6"
   },
   "devDependencies": {
     "@snowpack/plugin-sass": "^1.4.0",
     "@snowpack/plugin-typescript": "^1.2.1",
+    "@types/dateformat": "^3.0.1",
     "@types/jquery": "^3.5.6",
+    "@types/js-quantities": "^1.6.2",
     "@types/snowpack-env": "^2.3.3",
     "prettier": "^2.2.1",
     "snowpack": "^3.3.7",
